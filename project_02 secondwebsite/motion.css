@@ -1,0 +1,380 @@
+html {
+    margin: 0;
+    padding: 0;
+    z-index: 1000;
+    height: 200%;
+    width: 100%;
+    background-color: black;
+}
+.header {
+    position: absolute;
+    background: transparent;
+    width:100%;
+    height:100px;
+    top:0px;
+    left:0px;
+   
+    
+}
+@font-face{
+    font-family: Raleway_Thin;
+    src: url(fonts/Raleway_Thin.ttf);
+    font-family: 
+    
+    
+}
+
+
+.motionfront {
+  
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  margin: -100px 0 0 -100px;
+  height: 200px;
+  width: 200px;
+  z-index: 100;
+
+}
+
+.intro {
+  
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -100px 0 0 -125px;
+  height: 225px;
+  width: 250px;
+  z-index: 100;
+ -webkit-animation: fadein 1.5s linear forwards;
+  animation: fadein 1.5s linear forwards;
+}
+
+@-webkit-keyframes fadein {
+  0%,100% { opacity: 0; }
+  50% { opacity: 1; }
+}
+
+
+
+
+
+
+.gridleft{
+        position: absolute;
+    display:block;
+    margin-top: 0px;
+    margin-left: 0px;
+    padding: 0;
+    left: 50%;
+    top: 50%;
+    margin: auto;
+    width: 480px;
+    height: 270px;
+    background-color: transparent;
+      margin-top: -135px; /* Half the height */
+   margin-left: -240px;
+    
+
+}
+
+.image1{
+   position: absolute;
+    display: block;
+   top: 50%;
+   left: 50%;
+   width: 480px;
+   height: 270px;
+   margin-top: -135px; /* Half the height */
+   margin-left: -240px; /* Half the width */
+    max-width: 720px;
+    max-height: 410px;
+    min-width: 100px;
+    min-height: 75px;
+
+}
+
+
+
+figure.effect1 figcaption::before {
+ 2   position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.3);
+	content: '';
+	opacity: 0;
+	transform: translate3d(0,20%,0);
+    z-index: 0;
+    
+    
+}
+figure.effect1 h2 {
+     font-family:'Raleway_Thin', 'Lato', 'Segoe UI', Helvetica, Arial, sans-serif;
+    font-size: 40px;
+	position: absolute;
+	top: 10%;
+    text-align: center;
+    left: 0px;
+	margin: auto;
+	width: 100%;
+	color: black;
+    opacity: 0;
+	transition: transform .5s, color 1s;
+	transform: translate3d(0,-50%,0);
+}
+figure.effect1 figcaption::before,
+figure.effect1 p {
+transition: opacity 0.5s, transform .5s;
+}
+figure.effect1 p {
+		position: absolute;
+	bottom: 0px;
+	left: 0px;
+	padding: 2em;
+	width: 100%;
+	opacity: 0;
+	transform: translate3d(0,-30px,0);
+    margin: auto;
+}
+figure.effect1:hover h2 {
+	color: #fff;
+	transform: translate3d(0,70%,0) translate3d(0,0px,0);
+    left: 0px;
+    opacity: 1;
+}
+figure.effect1:hover figcaption::before ,
+figure.effect1:hover p {
+	opacity: 1;
+	transform: translate3d(0,0,0);
+    left: 0px;
+    
+}
+
+
+
+
+.watchimage2{
+    
+   margin: auto;
+   position: absolute;
+   width: 300px;
+   height: 300px;
+
+  
+}
+.watch{
+    
+    position: absolute;
+    display:block;
+    margin-top: 0px;
+    margin-left: 0px;
+    padding: 0;
+    left: 50%;
+    top: 110%;
+    margin: auto;
+    width: 300px;
+    height: 300px;
+    background-color: transparent;
+      margin-top: -150px; /* Half the height */
+   margin-left: -150px;
+    
+    
+}
+
+
+
+
+figure.effect2 figcaption::before {
+    position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.2);
+	content: '';
+	opacity: 0;
+	transform: translate3d(0,20%,0);
+    z-index: 0;
+    
+    
+}
+figure.effect2 h2 {
+     font-family:'Raleway_Thin', 'Lato', 'Segoe UI', Helvetica, Arial, sans-serif;
+    font-size: 40px;
+	position: absolute;
+	top: 10%;
+    text-align: center;
+    left: 0px;
+	margin: auto;
+	width: 100%;
+	color: black;
+    opacity: 0;
+	transition: transform .5s, color 1s;
+	transform: translate3d(0,-50%,0);
+}
+figure.effect2 figcaption::before,
+figure.effect2 p {
+transition: opacity 0.5s, transform .5s;
+}
+figure.effect2 p {
+		position: absolute;
+	bottom: 0px;
+	left: 0px;
+	padding: 2em;
+	width: 100%;
+	opacity: 0;
+	transform: translate3d(0,-30px,0);
+    margin: auto;
+}
+figure.effect2:hover h2 {
+	color: #fff;
+	transform: translate3d(0,70%,0) translate3d(0,0px,0);
+    left: 0px;
+    opacity: 1;
+}
+figure.effect2:hover figcaption::before ,
+figure.effect2:hover p {
+	opacity: 1;
+	transform: translate3d(0,0,0);
+    left: 0px;
+    
+}
+
+
+p {
+    font-size: 30px;
+    
+    
+
+    font-weight: 300;
+    
+    padding-left: 0%;
+    
+    
+}
+
+.back {
+    right: 5%;
+    top:5%;
+    position:fixed;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    padding-left: 30px;
+    padding-right: 30px;
+    display: block;
+    font-size: 50px; 
+    font-family:'Raleway_Thin', 'Lato', 'Segoe UI', Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    word-spacing: 0px;
+    text-decoration: none;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*BOX ANIMATION*/
+.back :before {
+    content: '';
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 0%;
+    height: -1%;
+    background: transparent;
+    border:1px solid transparent;
+}
+.back :hover:before
+{
+    animation: animate 0.2s linear forwards;
+}
+@keyframes animate 
+{
+    0%
+    {
+        width: 0;
+        height: 0;
+        border-top-color: transparent;
+        border-right-color: transparent;
+        border-bottom-color: transparent;
+        border-left-color: transparent;
+    }
+    50%
+    {
+        width: 100%;
+        height: 0%;
+        border-top-color: ffffff;
+        border-right-color: transparent;
+        border-bottom-color: transparent;
+        border-left-color: transparent;
+    }
+    100%
+    {
+        width: 100%;
+        height: 100%;
+        border-top-color: #ffffff;
+        border-right-color: #ffffff;
+        border-bottom-color: transparent;
+        border-left-color: transparent;
+    }
+} 
+.back :after 
+{
+    content: '';
+    position: absolute;
+    top: 0px;
+    left: -0px;
+    width: 0%;
+    height: -1%;
+    background: transparent;
+    border:1px solid transparent;
+}
+.back :hover:after
+{
+    animation: animate2 0.2s linear forwards;
+}
+@keyframes animate2 
+{
+    0%
+    {
+        width: 0;
+        height: 0;
+        border-top-color: transparent;
+        border-right-color: transparent;
+        border-bottom-color: transparent;
+        border-left-color: transparent;
+    }
+    50%
+    {
+        width: 0;
+        height: 100%;
+        border-top-color: transparent;
+        border-right-color: transparent;
+        border-bottom-color: #ffffff;
+        border-left-color: #ffffff;
+    }
+    100%
+    {
+        width: 100%;
+        height: 100%;
+        border-top-color: transparent;
+        border-right-color: transparent;
+        border-bottom-color: #ffffff;
+        border-left-color: #ffffff;
+    }
+
+
+}
+
