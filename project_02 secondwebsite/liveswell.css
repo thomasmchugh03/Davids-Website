@@ -825,7 +825,7 @@ video{
   .BG  {
        height: 100vh;
         width: 200vw;
-        position
+        /*position:;*/
         top:0;
         left:0;
       visibility:hidden;

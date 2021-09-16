@@ -12,12 +12,8 @@ body {
 @font-family {
    
     font-family: 'Roboto', sans-serif;
-    font-family: 'Playfair Display', serif;
-  
-    
+    font-family: 'Playfair Display', serif;  
 }
-
-
 
 .pr{
   position: relative;
@@ -66,6 +62,25 @@ img.scale-with-grid {
     padding: 0 0px;
     box-sizing: border-box;
 }
+
+.cursor{
+  position: fixed;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 1px solid #FFD57E;
+  transform: translate(-50%,-50%);
+  pointer-events: none;
+  mix-blend-mode: difference;
+}
+
+.portfolio-list a:hover ~ .cursor{
+  transform: scale(6);
+}
+
+
+.twelve.columns a:hover ~ .cursor { transform: scale(6);}
+
 .header a{
   color: #fff;
   text-decoration: none;
@@ -415,11 +430,12 @@ body.notfound{
 }
 .footer p{
   opacity: 0.6;
+  text-align: center;
   font-weight: 200;
   opacity: 0.4;
 }
 .footer .social{
-  text-align: right;
+  text-align: center;
 }
 .footer .social a{
   color: #fff;

@@ -1,6 +1,11 @@
 $(function(){
 	$(window).load(function(){ // On load
 		var boy = $(window).height() - 142;
+        const cursor = document.querySelector('.cursor');
+        document.addEventListener('mousemove', (e) =>{
+            cursor.style.left = e.clientX + 'px';
+            cursor.style.top = e.clientY + 'px';
+        })
     $(".mini-about").height(boy);
     $(".portfolio-list p").height( $(".portfolio-list a").height() );
 	});
