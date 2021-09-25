@@ -3,12 +3,112 @@ html{
 }
 body {
   margin: 0;
+  overflow-y: scroll; /* Add the ability to scroll */
+
   font-family: 'Roboto', sans-serif;
-    color: #111;
-
-
-    
+    color: #111;    
+  
 }
+
+body::-webkit-scrollbar{
+  display: none;
+}
+
+/* Custom Lacrosse Unlimited Section Beginning */
+
+
+.Lacrosse-bg{
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+img.L-fill-screen{
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 60%;
+}
+
+.image1{
+  position: relative;
+  width:100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.Lacrosse-container {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 0px;
+  box-sizing: border-box;
+}
+
+.Lacrosse-center-heading, .Lessing-center-heading{
+  font-size: 4.2vw;
+  line-height: 1.5em;
+  font-family: "Merriweather", sans-serif;
+}
+
+.Lacrosse-center-subheader{
+  font-size: 1.25vw;
+  line-height: 3em;
+  font-family: 'Poppins', sans-serif;
+}
+
+/*Specifically made just for the Din font as that was downloaded*/
+@font-face {
+  font-family: Din;
+  src: url(dinlight.ttf);
+}
+
+.Din{
+  font-family: Din;
+}
+
+.centered {
+  color: white;
+  text-align: center;
+  font-size: 1.2vw;
+  line-height: 2em;
+  position: absolute;
+  top: 27.5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.video-centered {
+  color:white;
+  text-align: center;
+  font-size: 1.2vw;
+  line-height: 2em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.Lacrosse-center-heading a:hover{
+  color: #68aee0;
+}
+
+.video-centered a:link ,a:visited{
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.Lessing-center-heading a:hover{
+  color: #FFD57E;
+}
+
+
+/* Custom Lacrosse Unlimited Section Ending */
+
 @font-family {
    
     font-family: 'Roboto', sans-serif;

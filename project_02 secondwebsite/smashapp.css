@@ -507,7 +507,7 @@ body.notfound{
   opacity: 0.4;
 }
 .footer .social{
-  text-align: right;
+  text-align: center;
 }
 .footer .social a{
   color: #282828;
@@ -863,8 +863,7 @@ video{
         position: absolute;
     width: 100%;
     top: 0%;
-    left: %;
-   z-index: 1000;
+    z-index: 1000;
     visibility: hiddenn;
 }
 
@@ -883,7 +882,6 @@ visibility:hidden;
   .BG  {
        height: 100vh;
         width: 170vw;
-        position
         top:0;
         left:0;
   }

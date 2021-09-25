@@ -308,7 +308,7 @@ font-family:  'Din', sans-serif;
 .column, .columns {
     width: 100%;
     
-   column-count: 1
+   column-count: 1;
     box-sizing: border-box;
     align-content: center;
 }
@@ -428,7 +428,7 @@ body.notfound{
     
 }
 .footer .social{
-  text-align: right;
+  text-align: center;
 }
 .footer .social a{
   color: #fff;
@@ -541,7 +541,7 @@ p.inf {
   }
 }
 @media only screen and (max-width: 1000px) 
-
+{}
   .mini-about{
     font-size: 34px;
     line-height: 35px;
