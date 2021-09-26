@@ -71,33 +71,26 @@
         </div>
 
         <div class="Lacrosse-container">
-            <img class="L-fill-screen" src="Images\Lessings\40th-Background.jpg">
+            <img class="L-fill-screen" id="screen" src="Images\Lessings\40th-Background.jpg">
 
             <div class="video-centered">
 
-                <div class="Lessing-center-heading">
+                <div class="Lessing-center-heading" onmouseover="hover(this, 'Images/Lessings/MSR-Background.jpg');" onmouseout="unhover(this);">
                     <a href="Images\Lessings\MRS-layout.pdf" target="_blank">
                         <strong>MSR</strong>
                     </a>
                 </div>
-                <div class="Lacrosse-center-subheader">MSR-Layout.pdf</div>
 
-                <div class="Lessing-center-heading">
+                <div class="Lessing-center-heading" onmouseover="hover(this, 'Images/Lessings/40th-Background.jpg');" onmouseout="unhover(this);">
                     <a href="Images\Lessings\40th-layout.pdf" target="_blank">
                         <strong>POC 40th Anniversary</strong>
                     </a>
                 </div>
-                <div class="Lacrosse-center-subheader">
-                    Logo-layout.pdf
-                </div>
 
-                <div class="Lessing-center-heading">
+                <div class="Lessing-center-heading" onmouseover="hover(this, 'Images/Lessings/SkipTheStraw-Background.jpg');" onmouseout="unhover(this);">
                     <a href="Images\Lessings\SkipTheStraw-layout.pdf" target="_blank">
                         <strong>Skip The Straw</strong>
                     </a>
-                </div>
-                <div class="Lacrosse-center-subheader">
-                    SkipTheStraw-layout.pdf
                 </div>
                 
             </div> 
@@ -106,4 +99,7 @@
         <div class="cursor"></div>
 
    </body>
+
+   <script src="js/slide.js"></script>
+   <script src="js/image_change.js"></script>
 </html>

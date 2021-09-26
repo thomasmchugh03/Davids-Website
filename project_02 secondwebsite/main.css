@@ -45,12 +45,13 @@ img.L-fill-screen{
   width: 100%;
   margin: 0 auto;
   padding: 0 0px;
-  box-sizing: border-box;
+  box-sizing:content-box;
 }
 
 .Lacrosse-center-heading, .Lessing-center-heading{
+  position: relative;
   font-size: 4.2vw;
-  line-height: 1.5em;
+  line-height: 2.5em;
   font-family: "Merriweather", sans-serif;
 }
 
@@ -81,6 +82,10 @@ img.L-fill-screen{
   transform: translate(-50%, -50%);
 }
 
+.video{
+  min-height: 517px;
+}
+
 .video-centered {
   color:white;
   text-align: center;
@@ -104,6 +109,51 @@ img.L-fill-screen{
 
 .Lessing-center-heading a:hover{
   color: #FFD57E;
+}
+
+.opacity-animation{
+  font-family: Din;
+  animation: opacity 1.25s cubic-bezier(0, 0, 0.5, 1);
+}
+
+.slide-right-animation{
+  position: relative;
+  font-size: 4.2vw;
+  line-height: 1.5em;
+  font-family: "Merriweather", sans-serif;
+  animation: slide-right 1.25s cubic-bezier(0, 0, 0, 1);
+}
+
+.slide-left-animation{
+  font-size: 1.25vw;
+  line-height: 3em;
+  font-family: 'Poppins', sans-serif;
+  animation: slide-left 1.25s cubic-bezier(0, 0, 0, 1);
+}
+
+@keyframes slide-right {
+  0% {margin-left: -200px; opacity: -25%;}
+  100% {margin-left: 0px; opacity: 100%;}
+}
+
+@keyframes slide-left {
+  0% {margin-right: -200px; opacity: -25%;}
+  100% {margin-right: 0px; opacity: 100%;}
+}
+
+@keyframes opacity {
+  0% {opacity: 0%;}
+  100% {opacity: 100%;}
+}
+
+@keyframes opacity-img {
+  0% {opacity: 0%;}
+  100% {opacity: 60%;}
+}
+
+@keyframes opacity-img-rev {
+  0% {opacity: 60%;}
+  100% {opacity: 0%;}
 }
 
 
@@ -149,15 +199,13 @@ img.scale-with-grid {
   position: fixed;
   width: inherit;
   z-index: 9999;
-  max-width: 1480px;
-
-  
+  max-width: 90%;
 }
 
 .container {
     position: relative;
     width: 100%;
-    max-width: 1480px;
+    max-width: 90%;
     margin: 0 auto;
     padding: 0 0px;
     box-sizing: border-box;
